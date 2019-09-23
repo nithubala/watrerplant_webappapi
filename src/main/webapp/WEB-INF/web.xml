@@ -40,6 +40,12 @@
   	<description></description>
   	<servlet-class>com.revature.waterplant_webapp.controller.OrderCanServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>ReserveCanServlet</servlet-name>
+  	<display-name>ReserveCanServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.waterplant_webapp.controller.ReserveCanServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>LoginServlet</servlet-name>
   	<url-pattern>/LoginServlet</url-pattern>
@@ -63,5 +69,9 @@
   <servlet-mapping>
   	<servlet-name>OrderCanServlet</servlet-name>
   	<url-pattern>/OrderCanServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ReserveCanServlet</servlet-name>
+  	<url-pattern>/ReserveCanServlet</url-pattern>
   </servlet-mapping>
 </web-app>
